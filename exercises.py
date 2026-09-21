@@ -24,11 +24,12 @@ print('Exercise 3:', apply_discount(100, 25))
 
 # Exercise 4: Convert Temperature
 
-def convert_temperature(temperature,unit):
+def convert_temperature(temperature, unit):
     if unit == 'C':
-         return (temperature * 9 / 5) + 32
+        return (temperature * 9 / 5) + 32
     elif unit == 'F':
         return (temperature - 32) * 5 / 9
-    
-    print('Exercise 4: Convert 0°C to Fahrenheit:', convert_temperature(0, 'C'))
-    print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
+
+
+print('Exercise 4: Convert 0°C to Fahrenheit:', convert_temperature(0, 'C'))
+print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
