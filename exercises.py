@@ -79,3 +79,19 @@ def product(*args):
 
 
 print('Exercise 8:', product(2, 5, 5))
+
+# Exercise 9: Basic Calculator
+
+def basic_calculator(num1, num2, operation):
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        return num1 / num2
+
+
+print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
+
